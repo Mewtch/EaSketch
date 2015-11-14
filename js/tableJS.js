@@ -42,7 +42,7 @@ function generateTable(size){
 //-----Style Div's and table------//
 function styleDiv(){
     $('div#wrapper').css({
-        'max-height':'1056px',
+        'max-height':'960px',
         'max-width':'960px',
         'overflow':'hidden',
         'border':'3px solid grey',
@@ -61,7 +61,7 @@ function styleTable(){
 function tableCells(squareSize){
     $('td#tableCell').css({
         'width': squareSize + 'px',
-        'height': (squareSize + 'px'),
+        'height': squareSize + 'px',
         'border':'1px solid black',
         'margin': '0px'}).addClass('startBackground');
     
@@ -99,7 +99,7 @@ function resetGrid(){
 }
 
 var getInteger = function(){
-    var tempNum = prompt("Please enter a numeric value for grid size- between 10-120 for optimum results. No value will leave grid as is, but change random trace color, if selected.");                
+    var tempNum = prompt("Please enter a numeric value for grid size- between 16-140 for optimum results. No value will leave grid as is, but change random trace color, if selected.");                
     if(isNaN(tempNum)){
         alert("You must numbers to reset grid!!");
         return false;
