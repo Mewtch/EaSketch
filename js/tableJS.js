@@ -101,7 +101,7 @@ function resetGrid(){
 var getInteger = function(){
     var tempNum = prompt("Please enter a numeric value for grid size- between 16-140 for optimum results. No value will leave grid as is, but change random trace color, if selected.");                
     if(isNaN(tempNum)){
-        alert("You must numbers to reset grid!!");
+        alert("You must enter numbers to reset grid!!");
         return false;
     }    
     return tempNum;
