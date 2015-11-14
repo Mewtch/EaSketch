@@ -1,0 +1,35 @@
+legend{
+    border:1px solid green;
+    font: bold 1.2em Comic Sans MS; 
+}
+fieldset{
+    border: 2px solid green;
+       
+}
+
+.blackTrace{
+    background-color:black;
+}
+.startBackground{
+    background-color:#FFE4C4;
+}
+
+fieldset{
+    width:935px;    
+}
+
+button{
+    background-color: #ffb805;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:1px solid black;
+    margin-bottom:10px;
+}
+
+

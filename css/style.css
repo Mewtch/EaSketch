@@ -1,0 +1,48 @@
+button{
+    background-color: #FF8000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:1px solid black;
+    margin-bottom:10px;
+}
+#resetGrid:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;}
+
+
+
+#buttonBox{
+    width:940px;
+    height:50px;
+    background-color:hsla(67, 100%, 54%, 0.45);
+    font: italic bold 1em sans-serif;
+    border-radius:7px;}
+    
+    
+
+h1{
+    width:600px;
+    font-family:cursive;
+    margin-top:0px;
+    }
+
+
+div#log{
+    width:200px;
+    height:30px;
+    background-color:white;
+    margin:0px;
+    border:1px dashed grey;
+    
+    
+
+}
+
+.trace{background-color:red;}
